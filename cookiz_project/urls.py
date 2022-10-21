@@ -18,4 +18,7 @@ from django.urls import path
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+
+    #url(r'^admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
+    #url(r'^secret/', include(admin.site.urls)),
 ]
